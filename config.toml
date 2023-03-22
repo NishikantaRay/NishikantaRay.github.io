@@ -1,4 +1,4 @@
-baseURL = "http://www.example.com"
+baseURL = "https://nishikanta.tech/"
 title = "Nishikanta Ray"
 theme = "coder"
 languageCode = "en"
@@ -14,7 +14,7 @@ style = "github-dark"
 [params]
 author = "Nishikanta Ray"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
-description = "John Doe's personal website"
+description = "Nishikanta Ray's personal website"
 keywords = "blog,developer,personal"
 info = ["Developer, Explorer & Freelancer"]
 avatarURL = "https://avatars.githubusercontent.com/u/62615392?s=400&u=3d71376ae454ee55d62274012b42467b967d3177&v=4"
