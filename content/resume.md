@@ -9,41 +9,49 @@ author = "Nishikanta Ray"
 Nishikanta Ray.  
 Hire Me: nishikantaray1@gmail.com  
 
-2023' Graduating Electronics and Communication Engineering from [SIT](https://silicon.ac.in).  
+In 2023, I graduated in Electronics and Communication Engineering from [SIT](https://silicon.ac.in).  (8.65/10) CGPA
 
+**July 2023 - Present**: Software Engineer at [Letsflo](https://letsflo.co/)
+- Engaged in full-stack development using JavaScript.
+- Responsibilities include developing and maintaining their product, as well as enhancing and expanding features for their proprietary framework based on JavaScript.
+- Tech stack: JavaScript, Node.js, Angular, Tailwind CSS, React, MongoDB.
 
-<em>July, 2022 --> Feb, 2023 </em>=> <strong>Fullstack Developer Intern</strong> at [TECEADS SOLUTIONS PRIVATE LIMITED](https://www.teceads.com/).  
-    - Doing Fullstack Development using MERN STACK (Using both JS & TS) .  
-    - Developed a Hyperlocal Ecommerce Platform & an estimation tool for carbon emission and mitigation for an Oil & Gas company .  
-    - Key responsibilities: Frontend, Backend, Admin Panel, and Server management.  
-    - Tech stack: Reactjs, Nodejs, Express ,Postgress SQL,Prisma ORM & MongoDB.  
+**July, 2022 - Feb, 2023**: Fullstack Developer at [TECEADS SOLUTIONS PRIVATE LIMITED](https://www.teceads.com/).
+- Doing Fullstack Development using MERN STACK (Using both JS & TS).
+- Developed a Hyperlocal Ecommerce Platform & an estimation tool for carbon emission and mitigation for an Oil & Gas company.
+- Key responsibilities: Frontend, Backend, Admin Panel, and Server management.
+- Tech stack: React.js, Node.js, Express, PostgreSQL, Prisma ORM, & MongoDB.
+# Projects:
 
-<strong>Skills:</strong>  
-    - Backend Development (NodeJS, TypeScript)  
-    - Frontend Development (ReactJS, AngularJS, NextJS , HTML, CSS, JavaScript, TypeScript)  
-    - Shell Scripting and Apps. (Bash)  
-    - DevOps (AWS, Docker, Azure)   
-    - Databases (MongoDB, MySQL, Postgress SQL)  
-    - Cloud (AWS, GCP, Azure)  
-    - CI/CD (Github Actions)  
-    - Testing (BDD)  
-    - Version Control (Git, Github,Gitlab)  
-    - Project Management (Jira)  
-    - Communication (Slack, Discord, Telegram, Zoom, Google Meet)  
-    - Operating Systems (Linux, Windows)  
+### StudyTub 
+- Users: 3k+ (as of 11-04-2024) :bar_chart:
+- StudyTub aims to empower BTECH students with high-quality study materials to make education more accessible. 
+- [Visit StudyTub](https://studytub.netlify.app/)
 
-<strong>Projects</strong>:  
-    - 10+ FreeLancing Projects [GITHUB REPO](https://github.com/NishikantaRay)   
-    - 20+ Hackathon projects and many more [GITHUB REPO](https://github.com/NishikantaRay).
+### Badge Craft
+- Users: 20 (as of 11-04-2024) :bar_chart:
+- Badge Craft allows users to design and personalize their avatars with customizable templates and options.
+- [Visit Badge Craft](https://badgecraft.online/) or [Badge Craft UI](https://badge-craft-ui.pages.dev/)
 
-<strong>Hackathons</strong>:
-    - 20+ Hackathon participated.  
-    - Won the Ideathon organized by Silicon(2023).  
-    - Finalist of the Smart India Hackathon (2022).  
-    - Secured 4th position in Developer Days Organized by Devfolio (2022).   
-    - Won Hack The Mountains 2.O (2021) for Affinidi Special Prize.  
-    - [Devfolio](https://devfolio.co/@NishikantaRay) | [Devpost](https://devpost.com/nishikantaray1)
+### Backdraft Generator
+- Total installs: 1500 (as of 11-04-2024) :hammer_and_wrench:
+- Backdraft Generator is a Yeoman generator for quickly scaffolding new Node.js applications with customizable options.
+- [Visit Backdraft Generator on npm](https://www.npmjs.com/package/generator-backdraft)
 
-<strong>Communities</strong>  
-    - Mentor at Postman API fest 2022  
-    - Maintainer at Opentek opensource community. (2020-present)  
+### Bootstrap 5 Extension
+- Total installs: 14,590 (as of 11-04-2024) :rocket:
+- Bootstrap 5 Extension provides Bootstrap 5 snippets and Fontawesome4-5-6 snippets for Visual Studio Code.
+- [View Bootstrap 5 Extension on Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Nishikanta12.bootstrap5snippets)
+
+**Hackathons**:
+- Participated in 20+ Hackathons.
+- Won the Ideathon organized by Silicon(2023).
+- Finalist of the Smart India Hackathon (2022).
+- Secured 4th position in Developer Days Organized by Devfolio (2022).
+- Won Hack The Mountains 2.O (2021) for Affinidi Special Prize.
+- [Devfolio](https://devfolio.co/@NishikantaRay) | [Devpost](https://devpost.com/nishikantaray1)
+
+**Communities**:
+- Mentor at Postman API fest 2022
+- Maintainer at Opentek opensource community. (2020-present)
+ 
