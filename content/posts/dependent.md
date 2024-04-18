@@ -1,5 +1,5 @@
 +++
-date = "2023-09-19"
+date = "2024-04-18"
 title = "Simplify Dependency Management on GitHub with Dependa Bot"
 description = "Simplify Dependency Management on GitHub with Dependa Bot"
 slug = "Simplify Dependency Management on GitHub with Dependa Bot"
