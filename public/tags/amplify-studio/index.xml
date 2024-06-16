@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Amplify Studio on Nishikanta Ray</title>
+    <link>https://nishikanta.in/tags/amplify-studio/</link>
+    <description>Recent content in Amplify Studio on Nishikanta Ray</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 28 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nishikanta.in/tags/amplify-studio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a Feature-Rich Full-Stack Application with AWS Amplify Studio: Admin panel for Studytub</title>
+      <link>https://nishikanta.in/posts/building-a-feature-rich-full-stack-application-with-aws-amplify-studio-admin-panel-for-studytub/</link>
+      <pubDate>Fri, 28 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishikanta.in/posts/building-a-feature-rich-full-stack-application-with-aws-amplify-studio-admin-panel-for-studytub/</guid>
+      <description>Introduction:
+As a full-stack developer, one of the most rewarding experiences is to build a feature-rich, scalable, and user-friendly application quickly. The AWS Amplify framework is a game-changer, providing developers with powerful tools and services that simplify the entire application development lifecycle. In this blog, I will share my experience creating my project using AWS Amplify during a hackathon.
+The Power of AWS Amplify:
+AWS Amplify is a comprehensive set of tools and services provided by Amazon Web Services (AWS) that enables developers to build full-stack applications with ease.</description>
+    </item>
+    
+  </channel>
+</rss>

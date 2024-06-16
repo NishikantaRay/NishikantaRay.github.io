@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dependency Management on Nishikanta Ray</title>
+    <link>https://nishikanta.in/tags/dependency-management/</link>
+    <description>Recent content in Dependency Management on Nishikanta Ray</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 18 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://nishikanta.in/tags/dependency-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simplify Dependency Management on GitHub with Dependa Bot</title>
+      <link>https://nishikanta.in/posts/simplify-dependency-management-on-github-with-dependa-bot/</link>
+      <pubDate>Thu, 18 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishikanta.in/posts/simplify-dependency-management-on-github-with-dependa-bot/</guid>
+      <description>What is Dependa Bot?Link to headingDependaBot 🤖 is a GitHub application designed to simplify dependency management within repositories. It acts as a vigilant assistant, continuously monitoring dependencies and promptly notifying you about available updates. By automating this process, Dependent Bot ensures that your projects remain current and secure, sparing you the hassle of manual tracking and updating.
+The Need for Dependency ManagementLink to headingDependabot alerts—inform you about vulnerabilities in the dependencies that you use in your repository.</description>
+    </item>
+    
+  </channel>
+</rss>

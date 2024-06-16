@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Backend Development on Nishikanta Ray</title>
+    <link>https://nishikanta.in/tags/backend-development/</link>
+    <description>Recent content in Backend Development on Nishikanta Ray</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 16 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://nishikanta.in/tags/backend-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🖼️ Understanding Race Conditions in Image Uploads</title>
+      <link>https://nishikanta.in/posts/race-conditions-in-image-uploads/</link>
+      <pubDate>Sun, 16 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishikanta.in/posts/race-conditions-in-image-uploads/</guid>
+      <description>In the world of concurrent programming, race conditions are subtle bugs that can lead to unpredictable behavior and data corruption.
+&amp;ldquo;when two threads access the same location in memory at the same time, and at least one of the accesses is a write.&amp;quot;
+🚦 What is a Race Condition?Link to headingA race condition arises when multiple threads access and attempt to modify shared data concurrently. Since thread scheduling can switch between threads unpredictably, the sequence of access and modification is uncertain.</description>
+    </item>
+    
+    <item>
+      <title>Advanced Aggregation Techniques: $unwind, $group, and $project</title>
+      <link>https://nishikanta.in/posts/advanced-aggregation-techniques-unwind-group-and-project/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishikanta.in/posts/advanced-aggregation-techniques-unwind-group-and-project/</guid>
+      <description>MongoDB&amp;rsquo;s aggregation framework is a versatile tool for transforming and analyzing data. Combining $unwind with other aggregation stages allow you to perform even more complex queries and gain deeper insights from your data.
+Understanding $unwindLink to headingThe $unwind stage in MongoDB&amp;rsquo;s aggregation pipeline deconstructs an array field from the input documents to output a document for each element of the array. This effectively &amp;ldquo;flattens&amp;rdquo; the array, creating multiple documents from a single document that contains an array.</description>
+    </item>
+    
+    <item>
+      <title>Automate Your Node.js Backend Development with the Backdraft Code Generator</title>
+      <link>https://nishikanta.in/posts/automate-your-node.js-backend-development-with-the-backdraft-code-generator/</link>
+      <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishikanta.in/posts/automate-your-node.js-backend-development-with-the-backdraft-code-generator/</guid>
+      <description>As a Node.js developer, you know that getting your backend project off the ground can be both exciting and time-consuming. From setting up the project structure to integrating authentication, these initial steps can take up a significant chunk of your development time. What if I told you that there&amp;rsquo;s a solution that can save you precious hours and streamline your backend development process? Introducing the Backdraft Code Generator – a powerful tool designed to make your Node.</description>
+    </item>
+    
+  </channel>
+</rss>

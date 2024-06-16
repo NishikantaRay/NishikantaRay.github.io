@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Compound Components on Nishikanta Ray</title>
+    <link>https://nishikanta.in/tags/compound-components/</link>
+    <description>Recent content in Compound Components on Nishikanta Ray</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 23 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nishikanta.in/tags/compound-components/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Compound Patterns and Custom Hooks in React: A Powerful Combination ✨</title>
+      <link>https://nishikanta.in/posts/compound-patterns-and-custom-hooks-in-react-a-powerful-combination/</link>
+      <pubDate>Sat, 23 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishikanta.in/posts/compound-patterns-and-custom-hooks-in-react-a-powerful-combination/</guid>
+      <description>IntroductionLink to headingReact&amp;rsquo;s functional components, coupled with hooks, have revolutionized the way we manage state and logic in modern web applications. One powerful approaIntroduction 🚀
+React&amp;rsquo;s functional components, coupled with hooks, have revolutionized the way we manage state and logic in modern web applications. One powerful approach is the combination of compound patterns and custom hooks, which allows for cleaner, more modular code. In this blog post, we&amp;rsquo;ll explore this approach and provide practical examples to illustrate its effectiveness.</description>
+    </item>
+    
+    <item>
+      <title>Modular UIs with Compound Components in React 🧩</title>
+      <link>https://nishikanta.in/posts/modular-uis-with-compound-components-in-react/</link>
+      <pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishikanta.in/posts/modular-uis-with-compound-components-in-react/</guid>
+      <description>Introduction 🚀Link to headingWhen it comes to building user interfaces in React, creating reusable and maintainable components is crucial. One powerful design pattern that can greatly enhance the modularity of your UI is the Compound Component pattern. In this blog post, we&amp;rsquo;ll explore what the Compound Component pattern is and how to effectively implement it in React.
+What is the Compound Component Pattern? 🤔Link to headingThe Compound Component pattern is a design approach that involves breaking down a complex UI element into smaller, reusable components.</description>
+    </item>
+    
+  </channel>
+</rss>

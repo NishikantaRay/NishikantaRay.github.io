@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+  Building a Feature-Rich Full-Stack Application with AWS Amplify Studio: Admin panel for Studytub · Nishikanta Ray
+</title>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Nishikanta Ray">
+<meta name="description" content="Building a Feature-Rich Full-Stack Application with AWS Amplify Studio: Admin panel for Studytub">
+<meta name="keywords" content="blog,developer,personal">
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Building a Feature-Rich Full-Stack Application with AWS Amplify Studio: Admin panel for Studytub"/>
+<meta name="twitter:description" content="Building a Feature-Rich Full-Stack Application with AWS Amplify Studio: Admin panel for Studytub"/>
+
+<meta property="og:title" content="Building a Feature-Rich Full-Stack Application with AWS Amplify Studio: Admin panel for Studytub" />
+<meta property="og:description" content="Building a Feature-Rich Full-Stack Application with AWS Amplify Studio: Admin panel for Studytub" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nishikanta.in/posts/building-a-feature-rich-full-stack-application-with-aws-amplify-studio-admin-panel-for-studytub/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-07-28T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-07-28T00:00:00+00:00" />
+
+
+
+
+<link rel="canonical" href="https://nishikanta.in/posts/building-a-feature-rich-full-stack-application-with-aws-amplify-studio-admin-panel-for-studytub/">
+
+
+<link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.0669b62fc2c181a12a4ba10be9984e385c9a5e83dc7cb7ae3759ad0b98d7e8b2.css" integrity="sha256-Bmm2L8LBgaEqS6EL6ZhOOFyaXoPcfLeuN1mtC5jX6LI=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.f6534b0b446b75d9b6ad77a97d43ede2ddaeff1b6e2361fb7198d6f8fcb7f83f.css" integrity="sha256-9lNLC0Rrddm2rXepfUPt4t2u/xtuI2H7cZjW&#43;Py3&#43;D8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+<meta name="generator" content="Hugo 0.111.2">
+
+
+
+
+
+  </head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      Nishikanta Ray
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/resume/">Resume</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/contact/">Contact</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://nishikanta.in/posts/building-a-feature-rich-full-stack-application-with-aws-amplify-studio-admin-panel-for-studytub/">
+              Building a Feature-Rich Full-Stack Application with AWS Amplify Studio: Admin panel for Studytub
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime="2023-07-28T00:00:00Z">
+                July 28, 2023
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              7-minute read
+            </span>
+          </div>
+          <div class="authors">
+  <i class="fa fa-user" aria-hidden="true"></i>
+    <a href="/authors/nishikanta-ray/">Nishikanta Ray</a></div>
+
+          <div class="categories">
+  <i class="fa fa-folder" aria-hidden="true"></i>
+    <a href="/categories/tech/">Tech</a></div>
+
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/amplify-studio/">Amplify Studio</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/full-stack-application/">Full-Stack Application</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <p><strong>Introduction:</strong></p>
+<p>As a full-stack developer, one of the most rewarding experiences is to build a feature-rich, scalable, and user-friendly application quickly. The AWS Amplify framework is a game-changer, providing developers with powerful tools and services that simplify the entire application development lifecycle. In this blog, I will share my experience creating my project using AWS Amplify during a hackathon.</p>
+<p><strong>The Power of AWS Amplify:</strong></p>
+<p>AWS Amplify is a comprehensive set of tools and services provided by Amazon Web Services (AWS) that enables developers to build full-stack applications with ease. Whether you are a seasoned developer or just starting, AWS Amplify abstracts away the complexities of managing infrastructure, databases, and authentication, allowing you to focus on crafting exceptional user experiences.</p>
+<ol>
+<li><strong>Getting Started with AWS Amplify</strong></li>
+</ol>
+<p>The journey started with setting up my AWS Amplify project. With just a few CLI commands, I initialized a new project and configured the essential services such as authentication, storage, and APIs. Amplify&rsquo;s seamless integration with popular frontend frameworks like React, Angular, and Vue.js made it effortless to start building.</p>
+<ol>
+<li><strong>Creating the Notes App</strong></li>
+</ol>
+<p>For my dream project, I decided to create a Notes App where users can jot down their thoughts, ideas, and reminders. To get started, I utilized the Amplify Authentication service to handle user sign-up and login securely. With a few lines of code, I added authentication features like user registration, password reset, and session management.</p>
+<ol>
+<li><strong>Note Management with Amplify API and Storage</strong></li>
+</ol>
+<p>To store and manage notes, I used the Amplify API and Storage services. I defined a GraphQL schema to model the structure of the notes, including fields like name, description, and image. Amplify automatically provisioned a fully managed GraphQL API, enabling seamless communication between the front end and back end. Storing images was a breeze with Amplify&rsquo;s S3 integration through the Storage service.</p>
+<ol>
+<li><strong>Real-time Collaboration with AWS AppSync</strong></li>
+</ol>
+<p>To take the Notes App to the next level, I leveraged AWS AppSync, a real-time and offline-capable GraphQL service. This allowed multiple users to collaborate on the same note in real time, with instant updates reflecting across all connected devices.</p>
+<ol>
+<li><strong>User-Friendly Interface with AWS Amplify UI Components</strong></li>
+</ol>
+<p>AWS Amplify UI Components provided a polished and consistent design language that accelerated the development of the front end. Buttons, forms, modals, and other UI elements were easily integrated into the app, resulting in a professional-looking and user-friendly interface.</p>
+<ol>
+<li><strong>Deploying and Hosting the App</strong></li>
+</ol>
+<p>With AWS Amplify&rsquo;s simple deployment process, I effortlessly deployed the Notes App to the cloud. Amplify&rsquo;s continuous deployment ensured that updates were automatically propagated to the live environment whenever changes were pushed to the code repository.</p>
+<ol>
+<li><strong>Scalability and Security</strong></li>
+</ol>
+<p>Throughout the development process, I didn&rsquo;t need to worry about scalability and security. AWS Amplify automatically handled the scaling of resources to meet the application&rsquo;s demand, while AWS&rsquo;s robust security practices kept user data safe and secure.</p>
+<p>Let&rsquo;s build an Admin panel for <a href="https://studytub.netlify.app/"  class="external-link" target="_blank" rel="noopener">StudyTub</a>
+ using AWS Amplify and explain each step in detail. We&rsquo;ll cover setting up the project, adding authentication, creating APIs, and deploying the app.</p>
+<p><strong>Prerequisites:</strong></p>
+<ul>
+<li>
+<p>Node.js installed on your machine</p>
+</li>
+<li>
+<p>AWS Amplify CLI installed (<code>npm install -g @aws-amplify/cli</code>)</p>
+</li>
+</ul>
+<p><strong>Step 1: Setting Up the Project</strong></p>
+<p>First, let&rsquo;s create a new React project using Create React App:</p>
+<p><code>npx create-react-app amplify-notes-app</code></p>
+<p><code>cd amplify-notes-app</code></p>
+<p><strong>Step 2: Initialize Amplify</strong></p>
+<p>Next, we&rsquo;ll initialize Amplify in our project:</p>
+<p><code>amplify init</code></p>
+<p>Amplify will prompt you to configure your project. For simplicity, choose the default options for now.</p>
+<p><strong>Step 3: Add Authentication</strong></p>
+<p>Let&rsquo;s add authentication to our app using Amplify Auth:</p>
+<p><code>amplify add auth</code></p>
+<p>Amplify will prompt you to configure the authentication settings. Choose the default options for now.</p>
+<p>Next, push the changes to the cloud to provision the authentication services:</p>
+<p><code>amplify push</code></p>
+<p><strong>Step 4: Create the GraphQL API</strong></p>
+<p>Now, let&rsquo;s create the GraphQL API for managing notes:</p>
+<p><code>amplify add api</code></p>
+<p>Choose &ldquo;GraphQL&rdquo; as the API type, and then configure the GraphQL schema:</p>
+<p><code>type Note @model { id: ID! name: String! description: String! image: String }</code></p>
+<p>This schema defines a Note model with the fields <code>name</code>, <code>description</code>, and <code>image</code>.</p>
+<p>Next, push the changes to the cloud to create the API:</p>
+<div class="highlight"><pre tabindex="0" style="color:#c9d1d9;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>amplify push
+</span></span></code></pre></div><p><strong>Step 5: Create the React Components</strong></p>
+<p>Now that our backend is set up, let&rsquo;s create the React components for the app.</p>
+<p>In the <code>src</code> folder, create a new folder named <code>components</code>, and inside it, create two files: <code>CreateNote.js</code> and <code>AllNotes.js</code>.</p>
+<p><code>CreateNote.js</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#c9d1d9;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span>jsxCopy codeimport React, { useState } from <span style="color:#a5d6ff">&#39;react&#39;</span>;
+</span></span><span style="display:flex;"><span><span style="color:#ff7b72">import</span> { API, Storage } from <span style="color:#a5d6ff">&#39;aws-amplify&#39;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff7b72">const</span> CreateNote <span style="color:#ff7b72;font-weight:bold">=</span> () =&gt; {
+</span></span><span style="display:flex;"><span>  <span style="color:#ff7b72">const</span> [noteData, setNoteData] <span style="color:#ff7b72;font-weight:bold">=</span> useState({ name<span style="color:#ff7b72;font-weight:bold">:</span> <span style="color:#a5d6ff">&#39;&#39;</span>, description<span style="color:#ff7b72;font-weight:bold">:</span> <span style="color:#a5d6ff">&#39;&#39;</span>, image<span style="color:#ff7b72;font-weight:bold">:</span> <span style="color:#a5d6ff">&#39;&#39;</span> });
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#ff7b72">const</span> handleChange <span style="color:#ff7b72;font-weight:bold">=</span> (event) =&gt; {
+</span></span><span style="display:flex;"><span>    <span style="color:#ff7b72">const</span> { name, value } <span style="color:#ff7b72;font-weight:bold">=</span> event.target;
+</span></span><span style="display:flex;"><span>    setNoteData({ ...noteData, [name]<span style="color:#ff7b72;font-weight:bold">:</span> value });
+</span></span><span style="display:flex;"><span>  };
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#ff7b72">const</span> handleFileChange <span style="color:#ff7b72;font-weight:bold">=</span> <span style="color:#ff7b72">async</span> (event) =&gt; {
+</span></span><span style="display:flex;"><span>    <span style="color:#ff7b72">const</span> file <span style="color:#ff7b72;font-weight:bold">=</span> event.target.files[<span style="color:#a5d6ff">0</span>];
+</span></span><span style="display:flex;"><span>    setNoteData({ ...noteData, image<span style="color:#ff7b72;font-weight:bold">:</span> file.name });
+</span></span><span style="display:flex;"><span>  };
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#ff7b72">const</span> handleSubmit <span style="color:#ff7b72;font-weight:bold">=</span> <span style="color:#ff7b72">async</span> (event) =&gt; {
+</span></span><span style="display:flex;"><span>    event.preventDefault();
+</span></span><span style="display:flex;"><span>    <span style="color:#ff7b72">await</span> API.graphql({
+</span></span><span style="display:flex;"><span>      query<span style="color:#ff7b72;font-weight:bold">:</span> <span style="color:#a5d6ff">`
+</span></span></span><span style="display:flex;"><span><span style="color:#a5d6ff">        mutation createNote($input: CreateNoteInput!) {
+</span></span></span><span style="display:flex;"><span><span style="color:#a5d6ff">          createNote(input: $input) {
+</span></span></span><span style="display:flex;"><span><span style="color:#a5d6ff">            id
+</span></span></span><span style="display:flex;"><span><span style="color:#a5d6ff">            name
+</span></span></span><span style="display:flex;"><span><span style="color:#a5d6ff">            description
+</span></span></span><span style="display:flex;"><span><span style="color:#a5d6ff">            image
+</span></span></span><span style="display:flex;"><span><span style="color:#a5d6ff">          }
+</span></span></span><span style="display:flex;"><span><span style="color:#a5d6ff">        }
+</span></span></span><span style="display:flex;"><span><span style="color:#a5d6ff">      `</span>,
+</span></span><span style="display:flex;"><span>      variables<span style="color:#ff7b72;font-weight:bold">:</span> { input<span style="color:#ff7b72;font-weight:bold">:</span> noteData },
+</span></span><span style="display:flex;"><span>    });
+</span></span><span style="display:flex;"><span>    <span style="color:#ff7b72">if</span> (noteData.image) {
+</span></span><span style="display:flex;"><span>      <span style="color:#ff7b72">await</span> Storage.put(noteData.image, noteData.image);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    setNoteData({ name<span style="color:#ff7b72;font-weight:bold">:</span> <span style="color:#a5d6ff">&#39;&#39;</span>, description<span style="color:#ff7b72;font-weight:bold">:</span> <span style="color:#a5d6ff">&#39;&#39;</span>, image<span style="color:#ff7b72;font-weight:bold">:</span> <span style="color:#a5d6ff">&#39;&#39;</span> });
+</span></span><span style="display:flex;"><span>  };
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#ff7b72">return</span> (
+</span></span><span style="display:flex;"><span>    <span style="color:#ff7b72;font-weight:bold">&lt;</span>form onSubmit<span style="color:#ff7b72;font-weight:bold">=</span>{handleSubmit}<span style="color:#ff7b72;font-weight:bold">&gt;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#ff7b72;font-weight:bold">&lt;</span>div<span style="color:#ff7b72;font-weight:bold">&gt;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ff7b72;font-weight:bold">&lt;</span>label htmlFor<span style="color:#ff7b72;font-weight:bold">=</span><span style="color:#a5d6ff">&#34;name&#34;</span><span style="color:#ff7b72;font-weight:bold">&gt;</span>Note Name<span style="color:#ff7b72;font-weight:bold">:&lt;</span><span style="color:#f85149">/label&gt;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ff7b72;font-weight:bold">&lt;</span>input type<span style="color:#ff7b72;font-weight:bold">=</span><span style="color:#a5d6ff">&#34;text&#34;</span> id<span style="color:#ff7b72;font-weight:bold">=</span><span style="color:#a5d6ff">&#34;name&#34;</span> name<span style="color:#ff7b72;font-weight:bold">=</span><span style="color:#a5d6ff">&#34;name&#34;</span> value<span style="color:#ff7b72;font-weight:bold">=</span>{noteData.name} onChange<span style="color:#ff7b72;font-weight:bold">=</span>{handleChange} required <span style="color:#ff7b72;font-weight:bold">/&gt;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#ff7b72;font-weight:bold">&lt;</span><span style="color:#f85149">/div&gt;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#ff7b72;font-weight:bold">&lt;</span>div<span style="color:#ff7b72;font-weight:bold">&gt;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ff7b72;font-weight:bold">&lt;</span>label htmlFor<span style="color:#ff7b72;font-weight:bold">=</span><span style="color:#a5d6ff">&#34;description&#34;</span><span style="color:#ff7b72;font-weight:bold">&gt;</span>Note Description<span style="color:#ff7b72;font-weight:bold">:&lt;</span><span style="color:#f85149">/label&gt;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ff7b72;font-weight:bold">&lt;</span>input type<span style="color:#ff7b72;font-weight:bold">=</span><span style="color:#a5d6ff">&#34;text&#34;</span> id<span style="color:#ff7b72;font-weight:bold">=</span><span style="color:#a5d6ff">&#34;description&#34;</span> name<span style="color:#ff7b72;font-weight:bold">=</span><span style="color:#a5d6ff">&#34;description&#34;</span> value<span style="color:#ff7b72;font-weight:bold">=</span>{noteData.description} onChange<span style="color:#ff7b72;font-weight:bold">=</span>{handleChange} required <span style="color:#ff7b72;font-weight:bold">/&gt;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#ff7b72;font-weight:bold">&lt;</span><span style="color:#f85149">/div&gt;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#ff7b72;font-weight:bold">&lt;</span>div<span style="color:#ff7b72;font-weight:bold">&gt;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ff7b72;font-weight:bold">&lt;</span>label htmlFor<span style="color:#ff7b72;font-weight:bold">=</span><span style="color:#a5d6ff">&#34;image&#34;</span><span style="color:#ff7b72;font-weight:bold">&gt;</span>Image<span style="color:#ff7b72;font-weight:bold">:&lt;</span><span style="color:#f85149">/label&gt;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ff7b72;font-weight:bold">&lt;</span>input type<span style="color:#ff7b72;font-weight:bold">=</span><span style="color:#a5d6ff">&#34;file&#34;</span> id<span style="color:#ff7b72;font-weight:bold">=</span><span style="color:#a5d6ff">&#34;image&#34;</span> name<span style="color:#ff7b72;font-weight:bold">=</span><span style="color:#a5d6ff">&#34;image&#34;</span> onChange<span style="color:#ff7b72;font-weight:bold">=</span>{handleFileChange} <span style="color:#ff7b72;font-weight:bold">/&gt;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#ff7b72;font-weight:bold">&lt;</span><span style="color:#f85149">/div&gt;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#ff7b72;font-weight:bold">&lt;</span>button type<span style="color:#ff7b72;font-weight:bold">=</span><span style="color:#a5d6ff">&#34;submit&#34;</span><span style="color:#ff7b72;font-weight:bold">&gt;</span>Create Note<span style="color:#ff7b72;font-weight:bold">&lt;</span><span style="color:#f85149">/button&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff7b72;font-weight:bold">&lt;</span><span style="color:#f85149">/form&gt;</span>
+</span></span><span style="display:flex;"><span>  );
+</span></span><span style="display:flex;"><span>};
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff7b72">export</span> <span style="color:#ff7b72">default</span> CreateNote;
+</span></span></code></pre></div><p><code>AllNotes.js</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#c9d1d9;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span>jsxCopy codeimport React, { useState, useEffect } from <span style="color:#a5d6ff">&#39;react&#39;</span>;
+</span></span><span style="display:flex;"><span><span style="color:#ff7b72">import</span> { API, Storage } from <span style="color:#a5d6ff">&#39;aws-amplify&#39;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff7b72">const</span> AllNotes <span style="color:#ff7b72;font-weight:bold">=</span> () =&gt; {
+</span></span><span style="display:flex;"><span>  <span style="color:#ff7b72">const</span> [notes, setNotes] <span style="color:#ff7b72;font-weight:bold">=</span> useState([]);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  useEffect(() =&gt; {
+</span></span><span style="display:flex;"><span>    fetchNotes();
+</span></span><span style="display:flex;"><span>  }, []);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#ff7b72">const</span> fetchNotes <span style="color:#ff7b72;font-weight:bold">=</span> <span style="color:#ff7b72">async</span> () =&gt; {
+</span></span><span style="display:flex;"><span>    <span style="color:#ff7b72">const</span> apiData <span style="color:#ff7b72;font-weight:bold">=</span> <span style="color:#ff7b72">await</span> API.graphql({ query<span style="color:#ff7b72;font-weight:bold">:</span> <span style="color:#a5d6ff">`query listNotes { listNotes { items { id name description image } } }`</span> });
+</span></span><span style="display:flex;"><span>    <span style="color:#ff7b72">const</span> notesFromAPI <span style="color:#ff7b72;font-weight:bold">=</span> apiData.data.listNotes.items;
+</span></span><span style="display:flex;"><span>    <span style="color:#ff7b72">await</span> Promise.all(
+</span></span><span style="display:flex;"><span>      notesFromAPI.map(<span style="color:#ff7b72">async</span> (note) =&gt; {
+</span></span><span style="display:flex;"><span>        <span style="color:#ff7b72">if</span> (note.image) {
+</span></span><span style="display:flex;"><span>          <span style="color:#ff7b72">const</span> url <span style="color:#ff7b72;font-weight:bold">=</span> <span style="color:#ff7b72">await</span> Storage.get(note.image);
+</span></span><span style="display:flex;"><span>          note.image <span style="color:#ff7b72;font-weight:bold">=</span> url;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#ff7b72">return</span> note;
+</span></span><span style="display:flex;"><span>      })
+</span></span><span style="display:flex;"><span>    );
+</span></span><span style="display:flex;"><span>    setNotes(notesFromAPI);
+</span></span><span style="display:flex;"><span>  };
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#ff7b72">return</span> (
+</span></span><span style="display:flex;"><span>    <span style="color:#ff7b72;font-weight:bold">&lt;</span>div<span style="color:#ff7b72;font-weight:bold">&gt;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#ff7b72;font-weight:bold">&lt;</span>h2<span style="color:#ff7b72;font-weight:bold">&gt;</span>All Notes<span style="color:#ff7b72;font-weight:bold">&lt;</span><span style="color:#f85149">/h2&gt;</span>
+</span></span><span style="display:flex;"><span>      {notes.map((note) =&gt; (
+</span></span><span style="display:flex;"><span>        <span style="color:#ff7b72;font-weight:bold">&lt;</span>div key<span style="color:#ff7b72;font-weight:bold">=</span>{note.id}<span style="color:#ff7b72;font-weight:bold">&gt;</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#ff7b72;font-weight:bold">&lt;</span>h3<span style="color:#ff7b72;font-weight:bold">&gt;</span>{note.name}<span style="color:#ff7b72;font-weight:bold">&lt;</span><span style="color:#f85149">/h3&gt;</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#ff7b72;font-weight:bold">&lt;</span>p<span style="color:#ff7b72;font-weight:bold">&gt;</span>{note.description}<span style="color:#ff7b72;font-weight:bold">&lt;</span><span style="color:#f85149">/p&gt;</span>
+</span></span><span style="display:flex;"><span>          {note.image <span style="color:#ff7b72;font-weight:bold">&amp;&amp;</span> <span style="color:#ff7b72;font-weight:bold">&lt;</span>img src<span style="color:#ff7b72;font-weight:bold">=</span>{note.image} alt<span style="color:#ff7b72;font-weight:bold">=</span>{<span style="color:#a5d6ff">`visual aid for </span><span style="color:#a5d6ff">${</span>note.name<span style="color:#a5d6ff">}</span><span style="color:#a5d6ff">`</span>} style<span style="color:#ff7b72;font-weight:bold">=</span>{{ width<span style="color:#ff7b72;font-weight:bold">:</span> <span style="color:#a5d6ff">&#39;200px&#39;</span> }} <span style="color:#ff7b72;font-weight:bold">/&gt;</span>}
+</span></span><span style="display:flex;"><span>        <span style="color:#ff7b72;font-weight:bold">&lt;</span><span style="color:#f85149">/div&gt;</span>
+</span></span><span style="display:flex;"><span>      ))}
+</span></span><span style="display:flex;"><span>    <span style="color:#ff7b72;font-weight:bold">&lt;</span><span style="color:#f85149">/div&gt;</span>
+</span></span><span style="display:flex;"><span>  );
+</span></span><span style="display:flex;"><span>};
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff7b72">export</span> <span style="color:#ff7b72">default</span> AllNotes;
+</span></span></code></pre></div><p><strong>Step 6: Integrate the Components</strong></p>
+<p>Finally, let&rsquo;s integrate the components into the <code>App.js</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#c9d1d9;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span>jsxCopy codeimport React from <span style="color:#a5d6ff">&#39;react&#39;</span>;
+</span></span><span style="display:flex;"><span><span style="color:#ff7b72">import</span> { withAuthenticator } from <span style="color:#a5d6ff">&#39;@aws-amplify/ui-react&#39;</span>;
+</span></span><span style="display:flex;"><span><span style="color:#ff7b72">import</span> CreateNote from <span style="color:#a5d6ff">&#39;./components/CreateNote&#39;</span>;
+</span></span><span style="display:flex;"><span><span style="color:#ff7b72">import</span> AllNotes from <span style="color:#a5d6ff">&#39;./components/AllNotes&#39;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff7b72">const</span> App <span style="color:#ff7b72;font-weight:bold">=</span> () =&gt; {
+</span></span><span style="display:flex;"><span>  <span style="color:#ff7b72">return</span> (
+</span></span><span style="display:flex;"><span>    <span style="color:#ff7b72;font-weight:bold">&lt;</span>div<span style="color:#ff7b72;font-weight:bold">&gt;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#ff7b72;font-weight:bold">&lt;</span>h1<span style="color:#ff7b72;font-weight:bold">&gt;</span>My Notes App<span style="color:#ff7b72;font-weight:bold">&lt;</span><span style="color:#f85149">/h1&gt;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#ff7b72;font-weight:bold">&lt;</span>CreateNote <span style="color:#ff7b72;font-weight:bold">/&gt;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#ff7b72;font-weight:bold">&lt;</span>AllNotes <span style="color:#ff7b72;font-weight:bold">/&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff7b72;font-weight:bold">&lt;</span><span style="color:#f85149">/div&gt;</span>
+</span></span><span style="display:flex;"><span>  );
+</span></span><span style="display:flex;"><span>};
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff7b72">export</span> <span style="color:#ff7b72">default</span> withAuthenticator(App);
+</span></span></code></pre></div><p><strong>Step 7: Run the App</strong></p>
+<p>Now, run your app:</p>
+<div class="highlight"><pre tabindex="0" style="color:#c9d1d9;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npm start
+</span></span></code></pre></div><p>You should see your app running at <a href="http://localhost:3000"  class="external-link" target="_blank" rel="noopener"><code>http://localhost:3000</code></a>
+. The app will allow users to create notes with names, descriptions, and optional images. All the notes will be displayed in a list below the Create Note form.</p>
+<p><strong>Conclusion:</strong></p>
+<p>In this blog, we learned how to build a simple Notes App using AWS Amplify. We covered setting up the project, adding authentication, creating a GraphQL API, and deploying the app. AWS Amplify&rsquo;s ease of use and integration with React made it a breeze to create this full-stack application. With AWS Amplify, developers can quickly build feature-rich, scalable, and secure applications without getting bogged down by the complexities of managing infrastructure. Happy hacking!</p>
+<p><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1690484235702/a9f7a59d-7779-44dd-9f04-517f5fad713c.png" alt=""></p>
+<p><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1690484260862/d2ba45cb-5b91-4d25-aa3a-08d5e7de836c.png" alt=""></p>
+<p><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1690484287333/1b3334a4-5e14-4676-aa93-b63c726946fe.png" alt=""></p>
+<p><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1690484311499/1ef56595-4a28-446b-94c4-0ecc729d0c48.png" alt=""></p>
+<p><strong>Introduction to Amazon Polly:</strong></p>
+<p>Amazon Polly is a cloud-based service provided by Amazon Web Services (AWS) that revolutionizes the way we interact with text. As an advanced text-to-speech (TTS) technology, Polly is designed to convert written text into lifelike speech, offering a natural and human-like audio output. With its wide range of languages and voices, Polly empowers developers, businesses, and individuals to create engaging and dynamic applications with speech capabilities.</p>
+<p>Developers can easily integrate Polly into their applications through APIs, allowing them to generate speech in real time. Whether it&rsquo;s producing audiobooks, creating voice-enabled user interfaces, or enhancing accessibility for visually impaired users, Amazon Polly opens up new possibilities for delivering information and content through natural-sounding voices. Embrace the power of Polly to bring your applications to life with captivating and immersive voice experiences.</p>
+<p><a href="https://youtu.be/Wdr55u1PO4A"  class="external-link" target="_blank" rel="noopener">Video Link</a>
+</p>
+<p><a href="https://github.com/NishikantaRay/AWS-AMPLIFY-HACKATHON"  class="external-link" target="_blank" rel="noopener">github</a>
+</p>
+<p><a href="https://hashnode.com/n/aws-amplify"  class="external-link" target="_blank" rel="noopener"><strong>#AWSAmplif</strong></a>
+<strong>y</strong> <a href="https://hashnode.com/n/awsamplifyhackathon"  class="external-link" target="_blank" rel="noopener"><strong>#AWSAmplifyHackathon</strong></a>
+</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2019 -
+    
+    2024
+     Nishikanta Ray 
+    ·
+    
+    Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>
