@@ -143,6 +143,18 @@ AWS Amplify is a comprehensive set of tools and services provided by Amazon Web 
     </item>
     
     <item>
+      <title>Building a Feature-Rich Full-Stack Application with AWS Amplify Studio: Admin panel for Studytub</title>
+      <link>https://nishikanta.in/posts/building-a-feature-rich-full-stack-application-with-aws-amplify-studio-admin-panel-for-studytub/</link>
+      <pubDate>Fri, 28 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishikanta.in/posts/building-a-feature-rich-full-stack-application-with-aws-amplify-studio-admin-panel-for-studytub/</guid>
+      <description>Introduction:
+As a full-stack developer, one of the most rewarding experiences is to build a feature-rich, scalable, and user-friendly application quickly. The AWS Amplify framework is a game-changer, providing developers with powerful tools and services that simplify the entire application development lifecycle. In this blog, I will share my experience creating my project using AWS Amplify during a hackathon.
+The Power of AWS Amplify:
+AWS Amplify is a comprehensive set of tools and services provided by Amazon Web Services (AWS) that enables developers to build full-stack applications with ease.</description>
+    </item>
+    
+    <item>
       <title>MicroFrontend using module federation</title>
       <link>https://nishikanta.in/posts/microfrontend-using-module-federation/</link>
       <pubDate>Wed, 22 Mar 2023 00:00:00 +0000</pubDate>
