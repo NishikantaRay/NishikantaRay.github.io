@@ -3,7 +3,7 @@ title = "Nishikanta Ray"
 theme = "coder"
 languageCode = "en"
 defaultContentLanguage = "en"
-paginate = 5
+paginate = 10
 enableEmoji = true
 # Enable Disqus comments
 # disqusShortname = "yourdiscussshortname"
