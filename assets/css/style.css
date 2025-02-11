@@ -417,14 +417,20 @@ p {
 }
 
 .profile-card .image {
-	background-color: var(--background);
+	/* background-color: var(--background); */
 	border-radius: 8px;
 	overflow: hidden;
 }
 
 .profile-card .image img {
 	margin-top: 10px;
-}
+	width: 100%; /* Ensures image takes full width of the container */
+	height: auto; /* Maintains aspect ratio */
+	max-height: 100%; /* Prevents image overflow */
+	object-fit: cover; /* Ensures proper cropping */
+	border-radius: 10px; /* Optional for rounded corners */
+  }
+  
 
 .profile-card .text {
 	margin-top: 24px;
