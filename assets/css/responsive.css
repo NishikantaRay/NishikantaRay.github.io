@@ -174,12 +174,12 @@
   }
 
   .profile-card .image {
-    aspect-ratio: 6 / 4;
+    /* aspect-ratio: 6 / 4; */
   }
 
   .profile-card .image img {
     object-fit: cover;
-    width: 60%;
+    height:50%;
   }
 
   .common-button-groups .btn {
