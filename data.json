@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "name": "Nishikanta Ray",
+    "title": "A passionate Full Stack Developer 🖥️, explorer, and freelancer with",
+    "experience": " 2 years of experience in designing, developing, and delivering innovative web solutions.",
+    "profileImage": "https://avatars.githubusercontent.com/u/62615392?v=4",
+    "email": "nishikantaray1@gmail.com",
+    "socialLinks": {
+      "facebook": "https://facebook.com/example",
+      "pinterest": "https://pinterest.com/example",
+      "github": "https://github.com/example",
+      "youtube": "https://youtube.com/example"
+    }
+  },
+  "workExperience": [
+    {
+      "company": "Adobe",
+      "role": "Senior UI UX Designer",
+      "years": "2021-2054",
+      "icon": "assets/img/icons/adobe.svg"
+    },
+    {
+      "company": "Google Inc.",
+      "role": "Senior Product Designer",
+      "years": "2021-2024",
+      "icon": "assets/img/icons/google.svg"
+    },
+    {
+      "company": "Meta Inc.",
+      "role": "Product Designer",
+      "years": "2021-2024",
+      "icon": "assets/img/icons/meta.svg"
+    },
+    {
+      "company": "Adobe",
+      "role": "Senior UI UX Designer",
+      "years": "2021-2024",
+      "icon": "assets/img/icons/adobe.svg"
+    },
+    {
+      "company": "qq",
+      "role": "Senior UI UX Designer",
+      "years": "2021-2024",
+      "icon": "assets/img/icons/adobe.svg"
+    }
+  ]
+}

@@ -1,21 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Higher-Order Components on Nishikanta Ray</title>
-    <link>https://nishikanta.in/tags/higher-order-components/</link>
-    <description>Recent content in Higher-Order Components on Nishikanta Ray</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Tue, 05 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nishikanta.in/tags/higher-order-components/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Higher-Order Components (HOCs) in React</title>
-      <link>https://nishikanta.in/posts/higher-order-components-hocs-in-react/</link>
-      <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://nishikanta.in/posts/higher-order-components-hocs-in-react/</guid>
-      <description>Understanding Higher-Order Components:Link to headingA Higher-Order Component (HOC) is a function that takes a component and returns a new component with enhanced capabilities. In essence, HOCs are a way to share behavior or functionality among React components. They are a crucial part of React&amp;rsquo;s composability and code reusability.
-Why Use HOCs?Link to heading1. ReusabilityLink to headingHOCs allow you to encapsulate and share standard functionality across different components.</description>
-    </item>
-    
-  </channel>
-</rss>
