@@ -43,5 +43,23 @@
       "years": "2021-2024",
       "icon": "assets/img/icons/adobe.svg"
     }
-  ]
+  ],
+  "brand": {
+    "logo": "assets/favicon.png"
+  },
+  "menu": [
+    { "label": "Home", "link": "index.html" },
+    { "label": "About", "link": "about.html" },
+    { "label": "Services", "link": "services.html" },
+    { "label": "Works", "link": "portfolio.html" },
+    { "label": "Blog", "link": "blog.html" },
+    { "label": "Contact", "link": "contact.html" }
+  ],
+  "buttons": {
+    "themeSwitch": true,
+    "letsTalk": {
+      "label": "Let's Talk",
+      "link": "https://us10.list-manage.com/contact-form?u=6de222a2f25969efb260c03d4&form_id=f68d4e9f93e132f6e275d7e4ee0bd76a"
+    }
+  }
 }
