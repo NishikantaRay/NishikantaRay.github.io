@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>first-post on Nishikanta Ray</title>
+    <link>https://nishikanta.in/tags/first-post/</link>
+    <description>Recent content in first-post on Nishikanta Ray</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 22 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nishikanta.in/tags/first-post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MicroFrontend using module federation</title>
+      <link>https://nishikanta.in/posts/microfrontend-using-module-federation/</link>
+      <pubDate>Wed, 22 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishikanta.in/posts/microfrontend-using-module-federation/</guid>
+      <description>Micro Frontend Application
+Microfrontend is an architectural approach that involves breaking down a web application into smaller, independently deployable and scalable parts. Each part, or microfrontend, is responsible for rendering a specific part of the user interface.
+Benefits of microfrontend:
+Improved scalability: Microfrontends allow for the application to be split into smaller, more manageable parts, making it easier to scale individual features and components as needed. Faster development cycles: Teams can work on different microfrontends simultaneously, allowing for faster development cycles and the ability to update specific features without affecting the entire application.</description>
+    </item>
+    
+  </channel>
+</rss>

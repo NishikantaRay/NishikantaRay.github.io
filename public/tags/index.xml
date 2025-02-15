@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Nishikanta Ray</title>
+    <link>https://nishikanta.in/tags/</link>
+    <description>Recent content in Tags on Nishikanta Ray</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 16 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://nishikanta.in/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Backend Development</title>
+      <link>https://nishikanta.in/tags/backend-development/</link>
+      <pubDate>Sun, 16 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishikanta.in/tags/backend-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Full-Stack Application</title>
+      <link>https://nishikanta.in/tags/full-stack-application/</link>
+      <pubDate>Sun, 16 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishikanta.in/tags/full-stack-application/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MongoDB</title>
+      <link>https://nishikanta.in/tags/mongodb/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishikanta.in/tags/mongodb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AWS S3</title>
+      <link>https://nishikanta.in/tags/aws-s3/</link>
+      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishikanta.in/tags/aws-s3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Presigned URLs</title>
+      <link>https://nishikanta.in/tags/presigned-urls/</link>
+      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishikanta.in/tags/presigned-urls/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dependa Bot</title>
+      <link>https://nishikanta.in/tags/dependa-bot/</link>
+      <pubDate>Thu, 18 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishikanta.in/tags/dependa-bot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dependency Management</title>
+      <link>https://nishikanta.in/tags/dependency-management/</link>
+      <pubDate>Thu, 18 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishikanta.in/tags/dependency-management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GitHub</title>
+      <link>https://nishikanta.in/tags/github/</link>
+      <pubDate>Thu, 18 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishikanta.in/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Badge Craft</title>
+      <link>https://nishikanta.in/tags/badge-craft/</link>
+      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishikanta.in/tags/badge-craft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>React</title>
+      <link>https://nishikanta.in/tags/react/</link>
+      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishikanta.in/tags/react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Timezones</title>
+      <link>https://nishikanta.in/tags/timezones/</link>
+      <pubDate>Sun, 07 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishikanta.in/tags/timezones/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Outerbase</title>
+      <link>https://nishikanta.in/tags/outerbase/</link>
+      <pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishikanta.in/tags/outerbase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Supabase</title>
+      <link>https://nishikanta.in/tags/supabase/</link>
+      <pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishikanta.in/tags/supabase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Compound Components</title>
+      <link>https://nishikanta.in/tags/compound-components/</link>
+      <pubDate>Sat, 23 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishikanta.in/tags/compound-components/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Render Props Pattern</title>
+      <link>https://nishikanta.in/tags/render-props-pattern/</link>
+      <pubDate>Wed, 13 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishikanta.in/tags/render-props-pattern/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Higher-Order Components</title>
+      <link>https://nishikanta.in/tags/higher-order-components/</link>
+      <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishikanta.in/tags/higher-order-components/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Amplify Studio</title>
+      <link>https://nishikanta.in/tags/amplify-studio/</link>
+      <pubDate>Fri, 28 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishikanta.in/tags/amplify-studio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>first-post</title>
+      <link>https://nishikanta.in/tags/first-post/</link>
+      <pubDate>Wed, 22 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishikanta.in/tags/first-post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>microfrontend</title>
+      <link>https://nishikanta.in/tags/microfrontend/</link>
+      <pubDate>Wed, 22 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishikanta.in/tags/microfrontend/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bachelor of Technology notes</title>
+      <link>https://nishikanta.in/tags/bachelor-of-technology-notes/</link>
+      <pubDate>Sat, 21 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishikanta.in/tags/bachelor-of-technology-notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>StudyTub</title>
+      <link>https://nishikanta.in/tags/studytub/</link>
+      <pubDate>Sat, 21 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishikanta.in/tags/studytub/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

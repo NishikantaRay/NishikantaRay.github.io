@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+  Creating a Comprehensive Hackathon Database with Outerbase and Supabase 🚀🛠️ · Nishikanta Ray
+</title>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Nishikanta Ray">
+<meta name="description" content="Creating a Comprehensive Hackathon Database with Outerbase and Supabase 🚀🛠️">
+<meta name="keywords" content="blog,developer,personal">
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Creating a Comprehensive Hackathon Database with Outerbase and Supabase 🚀🛠️"/>
+<meta name="twitter:description" content="Creating a Comprehensive Hackathon Database with Outerbase and Supabase 🚀🛠️"/>
+
+<meta property="og:title" content="Creating a Comprehensive Hackathon Database with Outerbase and Supabase 🚀🛠️" />
+<meta property="og:description" content="Creating a Comprehensive Hackathon Database with Outerbase and Supabase 🚀🛠️" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nishikanta.in/posts/creating-a-comprehensive-hackathon-database-with-outerbase-and-supabase/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-09-26T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-09-26T00:00:00+00:00" />
+
+
+
+
+<link rel="canonical" href="https://nishikanta.in/posts/creating-a-comprehensive-hackathon-database-with-outerbase-and-supabase/">
+
+
+<link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.0669b62fc2c181a12a4ba10be9984e385c9a5e83dc7cb7ae3759ad0b98d7e8b2.css" integrity="sha256-Bmm2L8LBgaEqS6EL6ZhOOFyaXoPcfLeuN1mtC5jX6LI=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.f6534b0b446b75d9b6ad77a97d43ede2ddaeff1b6e2361fb7198d6f8fcb7f83f.css" integrity="sha256-9lNLC0Rrddm2rXepfUPt4t2u/xtuI2H7cZjW&#43;Py3&#43;D8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+<meta name="generator" content="Hugo 0.111.2">
+
+
+
+
+
+  </head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      Nishikanta Ray
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/resume/">Resume</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/contact/">Contact</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://nishikanta.in/posts/creating-a-comprehensive-hackathon-database-with-outerbase-and-supabase/">
+              Creating a Comprehensive Hackathon Database with Outerbase and Supabase 🚀🛠️
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime="2023-09-26T00:00:00Z">
+                September 26, 2023
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              4-minute read
+            </span>
+          </div>
+          <div class="authors">
+  <i class="fa fa-user" aria-hidden="true"></i>
+    <a href="/authors/nishikanta-ray/">Nishikanta Ray</a></div>
+
+          <div class="categories">
+  <i class="fa fa-folder" aria-hidden="true"></i>
+    <a href="/categories/tech/">Tech</a></div>
+
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/react/">React</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/full-stack-application/">Full-Stack Application</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/outerbase/">Outerbase</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/supabase/">Supabase</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <h2 id="introduction-">
+  <strong>Introduction 📝</strong>
+  <a class="heading-link" href="#introduction-">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>In this tutorial, we will walk you through the process of creating a robust hackathon database using Outerbase and Supabase. This database will allow you to efficiently manage hackathon details, challenges, teams, submissions, judges, and judging criteria. 🏆🔍</p>
+<h2 id="prerequisites-">
+  <strong>Prerequisites 🧰✅</strong>
+  <a class="heading-link" href="#prerequisites-">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Before we begin, make sure you have the following:</p>
+<ol>
+<li>
+<p>An account on Supabase: <a href="https://supabase.com/"  class="external-link" target="_blank" rel="noopener"><strong>Sign up here</strong></a>
+. 🌐🔗</p>
+</li>
+<li>
+<p>A project set up on Supabase with credentials generated. 🗂️🔑</p>
+</li>
+</ol>
+<h2 id="getting-started-">
+  <strong>Getting Started 🏁🚀</strong>
+  <a class="heading-link" href="#getting-started-">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<h3 id="1-connecting-to-supabase-">
+  <strong>1. Connecting to Supabase 🌐🔗</strong>
+  <a class="heading-link" href="#1-connecting-to-supabase-">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ol>
+<li>
+<p>Create a project on Supabase, select your region, and generate a password. 🌍🔐</p>
+</li>
+<li>
+<p>Go to project settings and then database to find and copy all the necessary connection data. 🖱️📋</p>
+</li>
+</ol>
+<h3 id="2-setting-up-outerbase-">
+  <strong>2. Setting Up Outerbase 🧩🔌</strong>
+  <a class="heading-link" href="#2-setting-up-outerbase-">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ol>
+<li>
+<p>Create an Outerbase account. 🆕🔐</p>
+</li>
+<li>
+<p>Connect your Outerbase account to Supabase using the previously copied credentials. 🔗🔑</p>
+</li>
+</ol>
+<h3 id="3-creating-a-new-base-">
+  <strong>3. Creating a New Base 🗄️🆕</strong>
+  <a class="heading-link" href="#3-creating-a-new-base-">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>In Outerbase, create a new base to start building your hackathon database. 🛠️🏗️</p>
+<h2 id="creating-the-tables-">
+  <strong>Creating the Tables 🗃️📊</strong>
+  <a class="heading-link" href="#creating-the-tables-">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Let&rsquo;s begin by creating the necessary tables for our hackathon database. 🗃️📊</p>
+<h3 id="hackathon-details-table-">
+  <strong>Hackathon Details Table 📅📝</strong>
+  <a class="heading-link" href="#hackathon-details-table-">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>
+<p>Hackathon_ID (Unique identifier for each hackathon)</p>
+</li>
+<li>
+<p>Hackathon_Name</p>
+</li>
+<li>
+<p>Start_Date</p>
+</li>
+<li>
+<p>End_Date</p>
+</li>
+<li>
+<p>Location</p>
+</li>
+<li>
+<p>Organizer_ID (Organizer&rsquo;s User_ID)</p>
+</li>
+<li>
+<p>Description</p>
+</li>
+</ul>
+<h3 id="challenges-table">
+  <strong>Challenges Table</strong>
+  <a class="heading-link" href="#challenges-table">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>
+<p>Challenge_ID (Unique identifier for each challenge)</p>
+</li>
+<li>
+<p>Hackathon_ID (Foreign key referencing the Hackathon Details Table)</p>
+</li>
+<li>
+<p>Challenge_Name</p>
+</li>
+<li>
+<p>Description</p>
+</li>
+<li>
+<p>Difficulty_Level</p>
+</li>
+<li>
+<p>Prize</p>
+</li>
+</ul>
+<h3 id="teams-table">
+  <strong>Teams Table</strong>
+  <a class="heading-link" href="#teams-table">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>
+<p>Team_ID (Unique identifier for each team)</p>
+</li>
+<li>
+<p>Team_Name</p>
+</li>
+<li>
+<p>Hackathon_ID (Foreign key referencing the Hackathon Details Table)</p>
+</li>
+<li>
+<p>Team_Leader_ID (User_ID of the team leader)</p>
+</li>
+<li>
+<p>Team_Size</p>
+</li>
+</ul>
+<h3 id="team-members-table">
+  <strong>Team Members Table</strong>
+  <a class="heading-link" href="#team-members-table">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>
+<p>Team_ID (Foreign key referencing the Teams Table)</p>
+</li>
+<li>
+<p>User_ID (Foreign key referencing the Users Table)</p>
+</li>
+</ul>
+<h3 id="submissions-table">
+  <strong>Submissions Table</strong>
+  <a class="heading-link" href="#submissions-table">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>
+<p>Submission_ID (Unique identifier for each submission)</p>
+</li>
+<li>
+<p>Team_ID (Foreign key referencing the Teams Table)</p>
+</li>
+<li>
+<p>Challenge_ID (Foreign key referencing the Challenges Table)</p>
+</li>
+<li>
+<p>Submission_Date</p>
+</li>
+<li>
+<p>Status (e.g., Submitted, In Review, Accepted, Rejected)</p>
+</li>
+<li>
+<p>Score</p>
+</li>
+</ul>
+<h3 id="judges-table">
+  <strong>Judges Table</strong>
+  <a class="heading-link" href="#judges-table">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>
+<p>Judge_ID (Unique identifier for each judge)</p>
+</li>
+<li>
+<p>First_Name</p>
+</li>
+<li>
+<p>Last_Name</p>
+</li>
+<li>
+<p>Email</p>
+</li>
+</ul>
+<h3 id="judging-criteria-table">
+  <strong>Judging Criteria Table</strong>
+  <a class="heading-link" href="#judging-criteria-table">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>
+<p>Criterion_ID (Unique identifier for each criterion)</p>
+</li>
+<li>
+<p>Challenge_ID (Foreign key referencing the Challenges Table)</p>
+</li>
+<li>
+<p>Criterion_Name</p>
+</li>
+<li>
+<p>Description</p>
+</li>
+<li>
+<p>Max_Score</p>
+</li>
+</ul>
+<h3 id="scores-table">
+  <strong>Scores Table</strong>
+  <a class="heading-link" href="#scores-table">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>
+<p>Submission_ID (Foreign key referencing the Submissions Table)</p>
+</li>
+<li>
+<p>Criterion_ID (Foreign key referencing the Judging Criteria Table)</p>
+</li>
+<li>
+<p>Score</p>
+</li>
+</ul>
+<h2 id="importing-data-">
+  <strong>Importing Data 📤📥</strong>
+  <a class="heading-link" href="#importing-data-">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<ol>
+<li>
+<p>Import the CSV file containing hackathon details, challenges, teams, etc., into Supabase. 📤📥</p>
+</li>
+<li>
+<p>Set the primary keys and save the data into the database. 🔑💾</p>
+</li>
+</ol>
+<h2 id="writing-queries-">
+  <strong>Writing Queries 📝🔍</strong>
+  <a class="heading-link" href="#writing-queries-">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Now that we have set up our database, let&rsquo;s write some queries to retrieve and manage the data. 📝🔍</p>
+<ol>
+<li>
+<p><strong>Retrieve all hackathons:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#c9d1d9;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#ff7b72">SELECT</span><span style="color:#6e7681"> </span><span style="color:#ff7b72;font-weight:bold">*</span><span style="color:#6e7681"> </span><span style="color:#ff7b72">FROM</span><span style="color:#6e7681"> </span>Hackathon_Details;<span style="color:#6e7681">
+</span></span></span></code></pre></div><ul>
+<li><strong>Description</strong>: This query retrieves all records from the &ldquo;Hackathon Details&rdquo; table, providing information about all hackathons.</li>
+</ul>
+</li>
+<li>
+<p><strong>Retrieve all challenges for a specific hackathon:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#c9d1d9;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#ff7b72">SELECT</span><span style="color:#6e7681"> </span><span style="color:#ff7b72;font-weight:bold">*</span><span style="color:#6e7681"> </span><span style="color:#ff7b72">FROM</span><span style="color:#6e7681"> </span>Challenges<span style="color:#6e7681"> </span><span style="color:#ff7b72">WHERE</span><span style="color:#6e7681"> </span>Hackathon_ID<span style="color:#6e7681"> </span><span style="color:#ff7b72;font-weight:bold">=</span><span style="color:#6e7681"> </span><span style="color:#ff7b72;font-weight:bold">&lt;</span>hackathon_id<span style="color:#ff7b72;font-weight:bold">&gt;</span>;<span style="color:#6e7681">
+</span></span></span></code></pre></div><ul>
+<li><strong>Description</strong>: This query retrieves all challenges associated with a specific hackathon. Replace <code>&lt;hackathon_id&gt;</code> with the actual hackathon ID.</li>
+</ul>
+</li>
+<li>
+<p><strong>Retrieve all teams for a specific hackathon:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#c9d1d9;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#ff7b72">SELECT</span><span style="color:#6e7681"> </span><span style="color:#ff7b72;font-weight:bold">*</span><span style="color:#6e7681"> </span><span style="color:#ff7b72">FROM</span><span style="color:#6e7681"> </span>Teams<span style="color:#6e7681"> </span><span style="color:#ff7b72">WHERE</span><span style="color:#6e7681"> </span>Hackathon_ID<span style="color:#6e7681"> </span><span style="color:#ff7b72;font-weight:bold">=</span><span style="color:#6e7681"> </span><span style="color:#ff7b72;font-weight:bold">&lt;</span>hackathon_id<span style="color:#ff7b72;font-weight:bold">&gt;</span>;<span style="color:#6e7681">
+</span></span></span></code></pre></div><ul>
+<li><strong>Description</strong>: This query retrieves all teams participating in a specific hackathon. Replace <code>&lt;hackathon_id&gt;</code> with the actual hackathon ID.</li>
+</ul>
+</li>
+<li>
+<p><strong>Retrieve all team members for a specific team:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#c9d1d9;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#ff7b72">SELECT</span><span style="color:#6e7681"> </span><span style="color:#ff7b72;font-weight:bold">*</span><span style="color:#6e7681"> </span><span style="color:#ff7b72">FROM</span><span style="color:#6e7681"> </span>Team_Members<span style="color:#6e7681"> </span><span style="color:#ff7b72">WHERE</span><span style="color:#6e7681"> </span>Team_ID<span style="color:#6e7681"> </span><span style="color:#ff7b72;font-weight:bold">=</span><span style="color:#6e7681"> </span><span style="color:#ff7b72;font-weight:bold">&lt;</span>team_id<span style="color:#ff7b72;font-weight:bold">&gt;</span>;<span style="color:#6e7681">
+</span></span></span></code></pre></div><ul>
+<li><strong>Description</strong>: This query retrieves all members of a specific team. Replace <code>&lt;team_id&gt;</code> with the actual team ID.</li>
+</ul>
+</li>
+<li>
+<p><strong>Retrieve all submissions for a specific team:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#c9d1d9;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#ff7b72">SELECT</span><span style="color:#6e7681"> </span><span style="color:#ff7b72;font-weight:bold">*</span><span style="color:#6e7681"> </span><span style="color:#ff7b72">FROM</span><span style="color:#6e7681"> </span>Submissions<span style="color:#6e7681"> </span><span style="color:#ff7b72">WHERE</span><span style="color:#6e7681"> </span>Team_ID<span style="color:#6e7681"> </span><span style="color:#ff7b72;font-weight:bold">=</span><span style="color:#6e7681"> </span><span style="color:#ff7b72;font-weight:bold">&lt;</span>team_id<span style="color:#ff7b72;font-weight:bold">&gt;</span>;<span style="color:#6e7681">
+</span></span></span></code></pre></div><ul>
+<li><strong>Description</strong>: This query retrieves all submissions made by a specific team. Replace <code>&lt;team_id&gt;</code> with the actual team ID.</li>
+</ul>
+</li>
+<li>
+<p><strong>Retrieve all submissions for a specific challenge:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#c9d1d9;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#ff7b72">SELECT</span><span style="color:#6e7681"> </span><span style="color:#ff7b72;font-weight:bold">*</span><span style="color:#6e7681"> </span><span style="color:#ff7b72">FROM</span><span style="color:#6e7681"> </span>Submissions<span style="color:#6e7681"> </span><span style="color:#ff7b72">WHERE</span><span style="color:#6e7681"> </span>Challenge_ID<span style="color:#6e7681"> </span><span style="color:#ff7b72;font-weight:bold">=</span><span style="color:#6e7681"> </span><span style="color:#ff7b72;font-weight:bold">&lt;</span>challenge_id<span style="color:#ff7b72;font-weight:bold">&gt;</span>;<span style="color:#6e7681">
+</span></span></span></code></pre></div><ul>
+<li><strong>Description</strong>: This query retrieves all submissions made for a specific challenge. Replace <code>&lt;challenge_id&gt;</code> with the actual challenge ID.</li>
+</ul>
+</li>
+<li>
+<p><strong>Retrieve the highest scoring submission for a specific challenge:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#c9d1d9;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#ff7b72">SELECT</span><span style="color:#6e7681"> </span>TOP<span style="color:#6e7681"> </span><span style="color:#a5d6ff">1</span><span style="color:#6e7681"> </span><span style="color:#ff7b72;font-weight:bold">*</span><span style="color:#6e7681"> </span><span style="color:#ff7b72">FROM</span><span style="color:#6e7681"> </span>Submissions<span style="color:#6e7681"> </span><span style="color:#ff7b72">WHERE</span><span style="color:#6e7681"> </span>Challenge_ID<span style="color:#6e7681"> </span><span style="color:#ff7b72;font-weight:bold">=</span><span style="color:#6e7681"> </span><span style="color:#ff7b72;font-weight:bold">&lt;</span>challenge_id<span style="color:#ff7b72;font-weight:bold">&gt;</span><span style="color:#6e7681"> </span><span style="color:#ff7b72">ORDER</span><span style="color:#6e7681"> </span><span style="color:#ff7b72">BY</span><span style="color:#6e7681"> </span>Score<span style="color:#6e7681"> </span><span style="color:#ff7b72">DESC</span>;<span style="color:#6e7681">
+</span></span></span></code></pre></div><ul>
+<li><strong>Description</strong>: This query retrieves the highest scoring submission for a specific challenge. Replace <code>&lt;challenge_id&gt;</code> with the actual challenge ID.</li>
+</ul>
+</li>
+<li>
+<p><strong>Retrieve the judges for a specific hackathon:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#c9d1d9;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#ff7b72">SELECT</span><span style="color:#6e7681"> </span><span style="color:#ff7b72;font-weight:bold">*</span><span style="color:#6e7681"> </span><span style="color:#ff7b72">FROM</span><span style="color:#6e7681"> </span>Judges<span style="color:#6e7681"> </span><span style="color:#ff7b72">WHERE</span><span style="color:#6e7681"> </span>Judge_ID<span style="color:#6e7681"> </span><span style="color:#ff7b72">IN</span><span style="color:#6e7681"> </span>(<span style="color:#ff7b72">SELECT</span><span style="color:#6e7681"> </span>Judge_ID<span style="color:#6e7681"> </span><span style="color:#ff7b72">FROM</span><span style="color:#6e7681"> </span>Judging_Criteria<span style="color:#6e7681"> </span><span style="color:#ff7b72">WHERE</span><span style="color:#6e7681"> </span>Challenge_ID<span style="color:#6e7681"> </span><span style="color:#ff7b72">IN</span><span style="color:#6e7681"> </span>(<span style="color:#ff7b72">SELECT</span><span style="color:#6e7681"> </span>Challenge_ID<span style="color:#6e7681"> </span><span style="color:#ff7b72">FROM</span><span style="color:#6e7681"> </span>Challenges<span style="color:#6e7681"> </span><span style="color:#ff7b72">WHERE</span><span style="color:#6e7681"> </span>Hackathon_ID<span style="color:#6e7681"> </span><span style="color:#ff7b72;font-weight:bold">=</span><span style="color:#6e7681"> </span><span style="color:#ff7b72;font-weight:bold">&lt;</span>hackathon_id<span style="color:#ff7b72;font-weight:bold">&gt;</span>));<span style="color:#6e7681">
+</span></span></span></code></pre></div><ul>
+<li><strong>Description</strong>: This query retrieves all judges associated with a specific hackathon. Replace <code>&lt;hackathon_id&gt;</code> with the actual hackathon ID.</li>
+</ul>
+</li>
+<li>
+<p><strong>Retrieve judging criteria for a specific challenge:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#c9d1d9;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#ff7b72">SELECT</span><span style="color:#6e7681"> </span><span style="color:#ff7b72;font-weight:bold">*</span><span style="color:#6e7681"> </span><span style="color:#ff7b72">FROM</span><span style="color:#6e7681"> </span>Judging_Criteria<span style="color:#6e7681"> </span><span style="color:#ff7b72">WHERE</span><span style="color:#6e7681"> </span>Challenge_ID<span style="color:#6e7681"> </span><span style="color:#ff7b72;font-weight:bold">=</span><span style="color:#6e7681"> </span><span style="color:#ff7b72;font-weight:bold">&lt;</span>challenge_id<span style="color:#ff7b72;font-weight:bold">&gt;</span>;<span style="color:#6e7681">
+</span></span></span></code></pre></div><ul>
+<li><strong>Description</strong>: This query retrieves all judging criteria for a specific challenge. Replace <code>&lt;challenge_id&gt;</code> with the actual challenge ID.</li>
+</ul>
+</li>
+<li>
+<p><strong>Calculate the average score for a specific team&rsquo;s submissions:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#c9d1d9;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#ff7b72">SELECT</span><span style="color:#6e7681"> </span><span style="color:#ff7b72">AVG</span>(Score)<span style="color:#6e7681"> </span><span style="color:#ff7b72">FROM</span><span style="color:#6e7681"> </span>Submissions<span style="color:#6e7681"> </span><span style="color:#ff7b72">WHERE</span><span style="color:#6e7681"> </span>Team_ID<span style="color:#6e7681"> </span><span style="color:#ff7b72;font-weight:bold">=</span><span style="color:#6e7681"> </span><span style="color:#ff7b72;font-weight:bold">&lt;</span>team_id<span style="color:#ff7b72;font-weight:bold">&gt;</span>;<span style="color:#6e7681">
+</span></span></span></code></pre></div><ul>
+<li><strong>Description</strong>: This query calculates the average score for all submissions made by a specific team. Replace <code>&lt;team_id&gt;</code> with the actual team ID.</li>
+</ul>
+</li>
+</ol>
+<h2 id="queries-">
+  <strong>Queries 📝🔍</strong>
+  <a class="heading-link" href="#queries-">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1695671600139/ce1a4d80-82ce-4706-9e1d-99178bf1d79f.png" alt=""></p>
+<p><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1695671678542/450e28ce-eecd-4900-9ad1-5292cda67904.png" alt=""></p>
+<p><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1695671895819/52a0d783-cdfe-410f-bbbb-abfd99f7a3a3.png" alt=""></p>
+<p><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1695671985713/8b8e101d-9190-4583-9cbd-639e285784c7.png" alt=""></p>
+<p><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1695672102151/d8997b0a-a866-416e-afc4-60104dafad6a.png" alt=""></p>
+<p><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1695673154045/338ccc30-3f5c-4f39-98f5-44c33fea14a2.png" alt=""></p>
+<p><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1695673299165/6c3f7774-34a7-4acc-ab91-8c02502644f2.png" alt=""></p>
+<h2 id="database-tables">
+  <strong>DataBase Tables📤</strong>
+  <a class="heading-link" href="#database-tables">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1695672154348/5813552a-8732-44dc-9567-f172455be94f.png" alt=""></p>
+<p><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1695672193251/b7437cbf-8a69-44c6-aac5-0ae487bb4820.png" alt=""></p>
+<h2 id="conclusion-">
+  <strong>Conclusion 🎉🥳</strong>
+  <a class="heading-link" href="#conclusion-">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Congratulations! You have successfully created a comprehensive hackathon database using Outerbase and Supabase. This database will allow you to efficiently manage hackathon events, challenges, teams, submissions, judges, and judging criteria. Feel free to customize and expand the database according to your specific needs. Happy hacking! 🎉🚀</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2019 -
+    
+    2024
+     Nishikanta Ray 
+    ·
+    
+    Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Presigned URLs on Nishikanta Ray</title>
+    <link>https://nishikanta.in/tags/presigned-urls/</link>
+    <description>Recent content in Presigned URLs on Nishikanta Ray</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 22 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://nishikanta.in/tags/presigned-urls/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Uploading Images Securely to AWS S3 Using Presigned URLs</title>
+      <link>https://nishikanta.in/posts/uploading-images-securely-to-aws-s3-using-presigned-urls/</link>
+      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishikanta.in/posts/uploading-images-securely-to-aws-s3-using-presigned-urls/</guid>
+      <description>Introduction: In the world of web development, uploading images is a common task, whether it&amp;rsquo;s for user avatars, product images, or any other media content. While there are various ways to handle file uploads, ensuring security and efficiency is crucial, especially when dealing with sensitive data like images. In this blog post, we&amp;rsquo;ll explore one of the secure methods for uploading images to Amazon S3 (Simple Storage Service) using pre-signed URLs.</description>
+    </item>
+    
+  </channel>
+</rss>

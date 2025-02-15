@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Outerbase on Nishikanta Ray</title>
+    <link>https://nishikanta.in/tags/outerbase/</link>
+    <description>Recent content in Outerbase on Nishikanta Ray</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 26 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nishikanta.in/tags/outerbase/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creating a Comprehensive Hackathon Database with Outerbase and Supabase 🚀🛠️</title>
+      <link>https://nishikanta.in/posts/creating-a-comprehensive-hackathon-database-with-outerbase-and-supabase/</link>
+      <pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishikanta.in/posts/creating-a-comprehensive-hackathon-database-with-outerbase-and-supabase/</guid>
+      <description>Introduction 📝Link to headingIn this tutorial, we will walk you through the process of creating a robust hackathon database using Outerbase and Supabase. This database will allow you to efficiently manage hackathon details, challenges, teams, submissions, judges, and judging criteria. 🏆🔍
+Prerequisites 🧰✅Link to headingBefore we begin, make sure you have the following:
+An account on Supabase: Sign up here. 🌐🔗
+A project set up on Supabase with credentials generated.</description>
+    </item>
+    
+  </channel>
+</rss>
