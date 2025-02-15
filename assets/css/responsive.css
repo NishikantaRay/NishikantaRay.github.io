@@ -18,13 +18,16 @@
 
   .work-experiance-card .work-experiance-slider li {
     display: flex !important;
-    gap: 5px;
+    font-size: 10px;
+    gap: 1px;
   }
 
   .work-experiance-card .work-experiance-slider li .date {
     margin-right: 30px;
   }
-
+  .work-experiance-card .work-experiance-slider li .date p {
+    font-size: 12px;
+  }
   .content-box-card .working-with-area .working-with-main {
     gap: 16px;
   }

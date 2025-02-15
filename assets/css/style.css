@@ -12,7 +12,7 @@
 03. Header
 04. Home
 05. About
-06. Services
+06. Resume
 07. Portfolio
 08. Blog
 09. Contact
@@ -618,7 +618,8 @@ p {
 }
 
 .work-experiance-card .work-experiance-slider {
-	animation: scrollY 10s linear infinite;
+	/* /* animation: scrollY 10s linear infinite;  */
+	/* if more than 5 enable this */
 }
 
 @keyframes scrollY {
