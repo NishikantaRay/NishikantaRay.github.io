@@ -137,10 +137,10 @@ weight = 3
 url = "https://www.linkedin.com/in/nishikanta-ray-7786a0196/"
 
 [[params.social]]
-name = "Instagram"
-icon = "fa fa-2x fa-instagram"
+name = "Youtube"
+icon = "fa fa-2x fa-youtube"
 weight = 4
-url = "https://instagram.com/nishikantaray?igshid=YmMyMTA2M2Y="
+url = "https://www.youtube.com/@nishikantaray5637"
 
 [languages.en]
 languageName = ":uk:"
@@ -151,18 +151,16 @@ weight = 1
 url = "about/"
 
 [[languages.en.menu.main]]
-name = "Blog"
+name = "Blogs"
 weight = 2
-url = "posts/"
+url = "https://blog.nishikanta.in/"
 
 [[languages.en.menu.main]]
 name = "Resume"
 weight = 3
-url = "resume/"
+url = "https://drive.google.com/drive/folders/1hMYOn9XB_i1WEWd-I-s9pe2LtThQh00w?usp=sharing"
 
 [[languages.en.menu.main]]
 name = "Contact"
 weight = 5
 url = "contact/"
-
-
