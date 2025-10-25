@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Professional Portfolio</title>
+    <meta name="description" content="Professional resume - Full Stack Developer & Software Engineer">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link rel="stylesheet" href="./css/resume.css">   
+</head>
+<body>
+    <div class="header-controls">
+        <a href="index.html" class="control-btn">← Home</a>
+        <button class="control-btn" id="theme-toggle">🌙 Theme</button>
+        <button class="control-btn" onclick="window.resumeConfig?.shareResume()" id="share-btn">� Share</button>
+    </div>
+
+    <div class="container" id="resume-container">
+        <div class="loading">Loading resume content...</div>
+    </div>
+
+    <!-- Resume Configuration -->
+    <script src="./js/resume-config.js"></script>
+    <script src="./js/resume-config-toml.js"></script>
+    <script src="./js/resume.js"></script>
+</body>
+</html>

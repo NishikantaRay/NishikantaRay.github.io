@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nishikanta Ray - Software Engineer & Full Stack Developer</title>
+    <meta name="description" content="A passionate Full Stack Developer, explorer, and freelancer with 2+ years of experience in designing, developing, and delivering innovative web solutions.">
+    
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Chart.js for analytics -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.js"></script>
+    
+    <!-- TOML parser -->
+    <script src="https://cdn.jsdelivr.net/npm/js-toml@0.5.0/dist/toml.min.js"></script>
+    
+    <!-- Dashboard Configuration -->
+    <script src="js/dashboard-config.js"></script>
+    
+    <!-- Social Configuration -->
+    <script src="js/social-config-toml.js"></script>
+    
+    <!-- Markdown parser -->
+    <script src="https://cdn.jsdelivr.net/npm/marked@9.1.2/marked.min.js"></script>
+    <link rel="stylesheet" href="./css/home.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-mobile-spacer"></div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle menu">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <h1 class="hero-title">Nishikanta Ray</h1>
+            <div class="hero-intro">
+                <p>A passionate Full Stack Developer, explorer, and freelancer with 2+ years of experience in designing, developing, and delivering innovative web solutions.</p>
+                <p>Currently working at @letsflo and actively contributing to the open-source community. I specialize in JavaScript, TypeScript, React, Node.js, and modern web technologies. Check out my <a href="projects.html">projects</a> and <a href="blog.html">blog</a> for insights into my development journey.</p>
+            </div>
+            <div class="social-links" id="social-links">
+                <!-- Social links will be populated by JavaScript -->
+            </div>
+            
+            <!-- Action Buttons -->
+            <div class="hero-actions">
+                <a href="resume.html" class="btn btn-primary">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                        <polyline points="14,2 14,8 20,8"></polyline>
+                        <line x1="16" y1="13" x2="8" y2="13"></line>
+                        <line x1="16" y1="17" x2="8" y2="17"></line>
+                        <polyline points="10,9 9,9 8,9"></polyline>
+                    </svg>
+                    Hire Me
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                    </svg>
+                    Let's Talk
+                </a>
+            </div>
+        </section>
+
+        <!-- Latest Freelance Projects Section -->
+        <section id="freelance-projects" class="freelance-projects">
+            <div class="section-header">
+                <h2 class="section-title">Trusted by Clients</h2>
+                <p class="section-subtitle">Companies I've worked with</p>
+            </div>
+            <div class="projects-container" id="freelanceProjectsContainer">
+                <!-- Populated by JavaScript -->
+            </div>
+            <div class="section-actions">
+                <a href="mailto:nishikantaray1@gmail.com" class="btn btn-outline">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    Contact Me
+                </a>
+            </div>
+        </section>
+
+        <!-- Latest Products Section -->
+        <section id="latest-products" class="latest-products">
+            <div class="section-header">
+                <h2 class="section-title">Latest Products</h2>
+                <p class="section-subtitle">Tools and apps I've built</p>
+            </div>
+            <div class="products-container" id="productsContainer">
+                <!-- Populated by JavaScript -->
+            </div>
+            <div class="section-actions">
+                <a href="projects.html#products" class="btn btn-outline">View All Products</a>
+            </div>
+        </section>
+
+        <!-- Dashboard Analytics Section -->
+        <section id="dashboard" class="dashboard" style="display: none;">
+            <h2 class="dashboard-title">Dashboard & Analytics</h2>
+            
+            <!-- Main Analytics Grid -->
+            <div class="dashboard-grid">
+                <!-- Recent Projects Chart -->
+                <div class="dashboard-card chart-card" data-section="charts">
+                    <div class="card-header">
+                        <h3 class="card-title">Recent Projects</h3>
+                        <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 20V10"></path>
+                            <path d="M12 20V4"></path>
+                            <path d="M6 20v-6"></path>
+                        </svg>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="activityChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- Tech Stack Distribution -->
+                <div class="dashboard-card chart-card" data-section="charts">
+                    <div class="card-header">
+                        <h3 class="card-title">Tech Stack</h3>
+                        <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                        </svg>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="projectChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- Performance Metrics -->
+                <div class="dashboard-card chart-card" data-section="charts">
+                    <div class="card-header">
+                        <h3 class="card-title">Performance</h3>
+                        <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12,6 12,12 16,14"></polyline>
+                        </svg>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="performanceChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- Recent Activity -->
+                <div class="dashboard-card" data-section="recent_activity">
+                    <div class="card-header">
+                        <h3 class="card-title">Recent Activity</h3>
+                        <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 12h18m-9-9v18"></path>
+                        </svg>
+                    </div>
+                    <div class="activity-container" id="recentActivity">
+                      
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills Progress Section -->
+            <div class="dashboard-section" data-section="skills_progress">
+                <h3 class="section-subtitle">Skills Progress</h3>
+                <div class="skills-grid" id="skillsProgress">
+                   
+                </div>
+            </div>
+
+            <!-- Statistics Grid -->
+            <div class="stats-grid" id="dashboardStats" data-section="statistics">
+               
+            </div>
+
+            <!-- Code Quality Metrics -->
+            <div class="dashboard-section" data-section="code_quality">
+                <h3 class="section-subtitle">Code Quality</h3>
+                <div class="quality-grid" id="codeQuality">
+                    
+                </div>
+            </div>
+
+            <!-- Learning Progress -->
+            <div class="dashboard-section" data-section="learning_progress">
+                <h3 class="section-subtitle">Currently Learning</h3>
+                <div class="learning-grid" id="learningProgress">
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Nishikanta Ray. Built with <a href="https://github.com/markedjs/marked" target="_blank">Marked.js</a>.</p>
+    </footer>
+    <script src="./js/home.js"></script>
+</body>
+</html>
